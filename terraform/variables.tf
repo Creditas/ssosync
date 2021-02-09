@@ -17,3 +17,4 @@ variable "include_groups" {
     description = "String with which Google Workspaces must be synch, separeted by comman"
     default = "Change"
 }
+
