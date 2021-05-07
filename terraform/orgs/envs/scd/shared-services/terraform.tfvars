@@ -6,6 +6,7 @@ squad = "ProductionEngineering"
 owner = "rafael.leonardo"
 
 container_definitions = "./templates/container_definitions.json.tmpl"
+
 include_groups = [
     "aws-scd-admin@creditas.com",
     "aws-scd-dev@creditas.com",
@@ -16,6 +17,6 @@ include_groups = [
     "aws-scd-dbe@creditas.com",
     "aws-scd-pe@creditas.com",
     "aws-scd-core@creditas.com",
-    "aws-scd-core-admin@creditas.com"
+    "aws-scd-core-admin@creditas.com",
+    "aws-scd-principals@creditas.com",
 ]
-
