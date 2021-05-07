@@ -12,7 +12,7 @@ variable "container_definitions" {}
 
 variable "include_groups" {
   type        = list(string)
-  description = "String with which Google Workspaces must be synch, separeted by comman"
+  description = "List with which Google Workspaces must be synch"
   default     = ["Change"]
 }
 
