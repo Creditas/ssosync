@@ -7,7 +7,6 @@ owner = "rafael.leonardo"
 
 container_definitions = "./templates/container_definitions.json.tmpl"
 include_groups = [
-    "access-aws-scd@creditas.com",
     "aws-scd-admin@creditas.com",
     "aws-scd-dev@creditas.com",
     "aws-scd-infra@creditas.com",
@@ -15,8 +14,7 @@ include_groups = [
     "aws-scd-security@creditas.com",
     "aws-scd-procurement@creditas.com",
     "aws-scd-dbe@creditas.com",
-    "aws-scd-tivit@creditas.com","aws-scd-pe@creditas.com",
-    "aws-scd-boc@creditas.com",
+    "aws-scd-pe@creditas.com",
     "aws-scd-core@creditas.com",
     "aws-scd-core-admin@creditas.com"
 ]

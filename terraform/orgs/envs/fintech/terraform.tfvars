@@ -7,11 +7,9 @@ owner = "camila.avila"
 
 container_definitions = "./templates/container_definitions.json.tmpl"
 include_groups = [
-    "access-aws-fintech@creditas.com",
     "aws-creditas-dev@creditas.com",
     "aws-creditas-de@creditas.com",
     "aws-creditas-admin@creditas.com",
-    "aws-creditas-terceiro-tivit@creditas.com",
     "aws-creditas-dbe@creditas.com",
     "aws-creditas-bi@creditas.com",
     "aws-creditas-dp@creditas.com",
@@ -35,7 +33,6 @@ include_groups = [
     "aws-creditas-legacy-bankfacil-apps@creditas.com",
     "aws-creditas-consignado@creditas.com",
     "aws-creditas-pe@creditas.com",
-    "aws-creditas-boc@creditas.com",
     "aws-creditas-sd@creditas.com",
     "aws-creditas-core@creditas.com",
     "aws-creditas-core-admin@creditas.com"
